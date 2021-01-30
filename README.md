@@ -1,7 +1,7 @@
 # Flutter Platform Navigation
 
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/pub-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/pub-1.0.1-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/flutter-%3E%3D1.17.0-blue.svg" />
   <a href="https://docs.mathology.org" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />

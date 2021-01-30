@@ -1,6 +1,6 @@
 library platform_navigation;
 
-import 'dart:io';
+import 'package:universal_io/io.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:platform_navigation/nav_android.dart';
@@ -19,7 +19,8 @@ class PlatformNavigation extends StatelessWidget {
   Widget build(BuildContext context) {
     if (kIsWeb) return NavWeb(title: title, screens: webScreens());
     if (Platform.isIOS) return NavIos(title: title, screens: mobileScreens());
-    if (Platform.isAndroid) return NavAndroid(title: title, screens: mobileScreens());
+    if (Platform.isAndroid)
+      return NavAndroid(title: title, screens: mobileScreens());
     return NavWeb(title: title, screens: screens);
   }
 

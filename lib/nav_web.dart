@@ -39,8 +39,11 @@ class _NavWebState extends State<NavWeb> {
           for (int i = 0; i < widget.screens.length; i++)
             ListTile(
               selected: current == i,
-              selectedTileColor: Theme.of(context).brightness == Brightness.dark ? Colors.grey[800] : Color(0xffE6E6E6),
-              leading: Icon(widget.screens[i].materialIcon, color: Theme.of(context).accentColor),
+              selectedTileColor: Theme.of(context).brightness == Brightness.dark
+                  ? Colors.grey[800]
+                  : Color(0xffE6E6E6),
+              leading: Icon(widget.screens[i].materialIcon,
+                  color: Theme.of(context).accentColor),
               title: Text(
                 widget.screens[i].title,
                 style: TextStyle(color: Theme.of(context).accentColor),
