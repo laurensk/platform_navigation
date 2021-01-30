@@ -1,4 +1,4 @@
-name: platform_navigation_example
+name: example
 description: A new Flutter project.
 
 publish_to: "none"
@@ -13,13 +13,16 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.1
-  platform_navigation:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   integration_test:
     sdk: flutter
+
+  dev_dependencies:
+  platform_navigation:
+    path: ../
 
 flutter:
   uses-material-design: true
