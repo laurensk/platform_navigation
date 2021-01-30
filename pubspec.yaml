@@ -1,0 +1,22 @@
+name: platform_navigation
+description: Platform navigation for Flutter.
+version: 1.0.0
+author: Laurens Kropf
+homepage: https://github.com/laurensk/platform_navigation
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.1
+  responsive_scaffold: ^1.3.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
