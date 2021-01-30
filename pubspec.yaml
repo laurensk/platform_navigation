@@ -1,7 +1,6 @@
 name: platform_navigation
 description: Platform navigation for Flutter.
 version: 1.0.0
-author: Laurens Kropf
 homepage: https://github.com/laurensk/platform_navigation
 
 environment:
